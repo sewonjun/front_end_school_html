@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <title>section</title>
+    <style>
+      .top {
+        display: block;
+        height: 100px;
+        width: 80vw;
+        border: 2px solid red;
+        margin-left: 10px;
+      }
+      .middle {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+      }
+
+      .content {
+        display: flex;
+        justify-content: left;
+        border: 2px solid red;
+        width: 60vw;
+        height: 400px;
+        margin-left: 10px;
+      }
+      .side {
+        display: flex;
+        flex-direction: column;
+        justify-content: right;
+        border: 2px solid red;
+        width: 20vw;
+        height: 400px;
+        margin-right: 10px;
+        margin-left: -2px;
+      }
+      .bottom {
+        display: block;
+        height: 100px;
+        width: 80vw;
+        border: 2px solid red;
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="top"></header>
+    <section class="middle">
+      <article class="content"></article>
+      <aside class="side"></aside>
+    </section>
+    <footer class="bottom"></footer>
+  </body>
+</html>
